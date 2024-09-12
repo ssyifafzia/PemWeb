@@ -1,0 +1,61 @@
+/* Gaya umum untuk seluruh halaman */
+body {
+    background-color: #f0f8ff;
+    font-family: 'Verdana', sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Gaya untuk semua heading */
+h1, h2, h3, h4, h5 {
+    margin: 20px 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Shadow halus */
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out; /* Efek transisi untuk hover */
+    animation: pulse 2s infinite; /* Semua heading menggunakan animasi pulse */
+}
+
+/* Efek hover untuk heading */
+h1:hover, h2:hover, h3:hover, h4:hover, h5:hover {
+    transform: scale(1.1); /* Memperbesar saat di-hover */
+    color: #ff6347; /* Mengubah warna saat di-hover */
+}
+
+/* Gaya individual untuk masing-masing heading */
+h1 {
+    font-size: 3em;
+    color: #ff89dc;
+}
+
+h2 {
+    font-size: 2.5em;
+    color: #a7fa96;
+}
+
+h3 {
+    font-size: 2em;
+    color: hsl(41, 90%, 70%);
+}
+
+h4 {
+    font-size: 1.7em;
+    color: #f59595;
+}
+
+h5 {
+    font-size: 1.5em;
+    color: #e16ef8;
+}
+
+/* Animasi pulse untuk semua heading */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05); /* Sedikit membesar di tengah */
+    }
+    100% {
+        transform: scale(1); /* Kembali ke ukuran awal */
+    }
+}

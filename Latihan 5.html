@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Mahasiswa</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Formulir Mahasiswa</h1>
+
+        <form action="">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="Nama" required><br>
+
+            <label for="nim">NIM:</label>
+            <input type="text" id="nim" name="NIM" required><br>
+
+            <label for="tanggal-lahir">Tanggal Lahir:</label>
+            <input type="date" id="tanggal-lahir" name="TanggalLahir" required><br>
+
+            <label for="tempat-lahir">Tempat Lahir:</label>
+            <input type="text" id="tempat-lahir" name="TempatLahir" required><br>
+
+            <fieldset>
+                <legend>Jenis Kelamin:</legend>
+                <label><input type="radio" name="Jeniskelamin" value="Perempuan" required> Perempuan</label>
+                <label><input type="radio" name="Jeniskelamin" value="Lakilaki"> Laki-laki</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Hobi:</legend>
+                <label><input type="checkbox" name="Hobi" value="berjualan"> Berjualan</label>
+                <label><input type="checkbox" name="Hobi" value="tidur"> Tidur</label>
+                <label><input type="checkbox" name="Hobi" value="makan"> Makan</label>
+                <label><input type="checkbox" name="Hobi" value="berbelanja"> Berbelanja</label>
+            </fieldset>
+
+            <label for="prodi">Prodi:</label>
+            <select id="prodi" name="Prodi" required>
+                <option value="SIK">Sistem Informasi Kelautan</option>
+                <option value="PGSD">Pndidikan Guru Sekolah Dasar</option>
+                <option value="PKP">Pendidikan Kelautan Dan Perikanan</option>
+                <option value="LK">Logistik Kelautan</option>
+                <option value="PGAUD">Pendidikan Guru Pendidikan Anak Usia DinI</option>
+            </select><br>
+
+            <button type="submit">Kirim</button>
+        </form>
+    </div>
+</body>
+</html>

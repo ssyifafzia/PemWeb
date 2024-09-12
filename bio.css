@@ -1,0 +1,15 @@
+body {
+    background-color: #fff5e1;
+    font-family: Georgia, serif;
+    padding: 30px;
+    color: #1aa1d6;
+}
+
+h1 {
+    color: #e73ca0;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}

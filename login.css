@@ -1,0 +1,121 @@
+/* Reset default browser styles */
+body, h1, form, input, select, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basic styling for the body */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #e9ecef;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Container styling */
+  .form-container {
+    background: #f5bb63;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    width: 100%;
+    max-width: 700px;
+    margin: 20px;
+  }
+  
+  /* Header styling */
+  .form-container h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #f4f7fa;
+    text-align: center;
+  }
+  
+  /* Form styling */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Label styling */
+  label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #495057;
+  }
+  
+  /* Input and select styling */
+  input[type="text"],
+  input[type="date"],
+  select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #f8f9fa;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #f8f9fa;
+  }
+  
+  /* Fieldset styling */
+  fieldset {
+    border: 1px solid #f8f9fa;
+    border-radius: 10px;
+    padding: px;
+    margin-bottom: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  legend {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #495057;
+  }
+  
+  /* Checkbox and radio styling */
+  input[type="checkbox"],
+  input[type="radio"] {
+    margin-right: 8px;
+  }
+  
+  /* Button styling */
+  button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #273d53;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: center;
+  }
+  
+  /* Button hover effect */
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 600px) {
+    .form-container {
+      padding: 20px;
+    }
+  
+    input[type="text"],
+    input[type="date"],
+    select {
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    button {
+      font-size: 14px;
+      padding: 10px 15px;
+    }
+  }
+  

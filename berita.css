@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdd095; /* light gray background */
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #724444;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  img {
+    width: 250px;
+    height: 250px;
+    border-radius: 70%;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: justify;
+    color: #a56f29f6;
+  }
+  
+  .author {
+    font-size: 16px;
+    color: #337ab7; /* blue color */
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #a56f29f6;
+    margin: 20px 0;
+    width: 50%;
+  }
+  
+  /* Add some spacing between paragraphs */
+  p + p {
+    margin-top: 20px;
+  }
